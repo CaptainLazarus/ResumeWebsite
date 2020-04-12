@@ -1,6 +1,7 @@
 body , pre{
     font-family: 'Oswald';
     font-size: 20px;    
+    color: white;
 }
 /* 
 pre {
@@ -13,9 +14,9 @@ pre {
     width: 50%;
     /* z-index: 1; */
     position: absolute;
-    border-color: brown;    
-    border-style: ridge;
-    border-width: 10px;
+    border-color: blue;    
+    border-style: double;
+    border-width: 5px;
 }
 
 .center {
@@ -51,7 +52,7 @@ pre {
 
 #one {
     /* background-color: #ff6363 ; */
-    background-color: #f0a500;
+    background-color: black;
     background-image: url("./20200413_005748.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +61,7 @@ pre {
 }
 
 #two {
-    background-color: #dbdbdb;
+    background-color: black;
     background-image: url("./20200413_010144.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +72,7 @@ pre {
 }
 
 #three {
-    background-color: #cf7500;
+    background-color: black;
     background-image: url("./IMG-20200328-WA0036.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,6 +109,14 @@ pre {
 
 a:link a:visited {
     text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: cornflowerblue;
 }
 
 #icons {
