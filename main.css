@@ -14,7 +14,7 @@ pre {
     width: 50%;
     /* z-index: 1; */
     position: absolute;
-    border-color: blue;    
+    border-color: #f0a500;    
     border-style: double;
     border-width: 5px;
 }
@@ -116,7 +116,7 @@ a {
 }
 
 a:hover {
-    color: cornflowerblue;
+    color: #cf7500;
 }
 
 #icons {
