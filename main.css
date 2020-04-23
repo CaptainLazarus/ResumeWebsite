@@ -19,53 +19,22 @@ pre {
     border-width: 5px;
 }
 
-.center {
-    /* border-color: black;
-    border-width: 5px;
-    border-style: dotted; */
-    display: flex;
-    flex-direction: column;
-    align-content: left;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    transition: all 1s;
-    transition-timing-function: ease-in;
-}
-
-.center1 {
-    align-content: left;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 
 #one {
-    /* background-color: #ff6363 ; */
     background-color: black;
-    background-image: url("./20200413_005748.jpg");
+    /* background-image: url("./20200413_005748.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     left: 0;
     top: 0;
 }
 
 #two {
     background-color: black;
-    background-image: url("./20200413_010144.jpg");
+    /* background-image: url("./20200413_010144.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 100% 50%; */
     right: 0;
     top: 0;
     /* transition: all 2s; */
@@ -73,9 +42,9 @@ pre {
 
 #three {
     background-color: black;
-    background-image: url("./IMG-20200328-WA0036.jpg");
+    /* background-image: url("./IMG-20200328-WA0036.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     left: 0;
     bottom: 0;
     /* padding-top: 20px; */
@@ -87,6 +56,36 @@ pre {
     right: 0;
     bottom: 0;
 }
+
+img {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    /* border-color: black;
+    border-width: 5px;
+    border-style: dotted; */
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content{
+    opacity: 0;
+    transition: all 1s;
+    transition-timing-function: ease-in;
+}
+
 
 #one:hover {
     background-image: none;
@@ -101,10 +100,6 @@ pre {
 #three:hover {
     background-image: none;
     /* background-color: #363062; */
-}
-
-.center:hover {
-    opacity: 100;
 }
 
 a:link a:visited {
@@ -124,4 +119,8 @@ a:hover {
     grid-template-columns: auto auto auto;
     align-content: space-between;
     font-size: 50px;
+}
+
+.content:hover {
+    opacity: 100;
 }
